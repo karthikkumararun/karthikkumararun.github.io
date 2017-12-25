@@ -1,38 +1,168 @@
-<!DOCTYPE html>
-<html data-ng-app="websiteIndex">
+<!doctype html>
+<html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Karthik's home page">
-	<meta name="author" content="karthikarun@outlook.com">
-	<title>Karthik Arun - Home</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="css/blog.css" />
-	<link rel="icon" sizes="16x16 24x24 32x32 64x64" href="images/favicon.ico">
-  <base href="/">
+    <title>Karthik Kumar Arun</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-	<div class="blog-masthead">
-		<div class="container">
-			<nav class="blog-nav">
-				<a class="blog-nav-item" id="homeLink" href="home">Home</a>
-				<a class="blog-nav-item" id="contactLink" href="contact">Contact</a>
-			</nav>
-		</div>
-	</div>
 
-	<div id="main" data-ng-view>
-	</div>
+    <!-- About me -->
+    <section id="about">
+        <div class="section-content">
+            <div class="container">
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <h3>About me</h3>
+                        <p class="lead">I am a programmer currently working for IBM India. I live in New Jersey, United states.
+                            I have 7 years of experience in Java, J2EE consisting of design, development, testing and implementation of various telecom inventory projects in agile methodology for IBM / AT&amp;T.
+                        </p>
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eum mollitia sit dolorem autem qui
+                            possimus ex voluptate, voluptatibus iste unde numquam illum, molestiae reprehenderit, eligendi.
+                            Illum quod esse voluptatibus.</p> -->
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.min.js"></script>
-  <script src="js/index.js"></script>
+                        <h5>Follow me on the web</h5>
+                        <a target="_blank" href="https://in.linkedin.com/in/karthikkumararun" class="btn btn-sm btn-outline-secondary">LinkedIn</a>
+                        <a target="_blank" href="https://www.facebook.com/karthikkumar.arun" class="btn btn-sm btn-outline-secondary">facebook</a>
+                        <a target="_blank" href="https://stackoverflow.com/users/5285409/karthik-arun" class="btn btn-sm btn-outline-secondary">Stack overflow</a>
+                        <a target="_blank" href="https://github.com/karthikkumararun" class="btn btn-sm btn-outline-secondary">Github</a>
+                        <a target="_blank" href="https://www.youracclaim.com/user/karthik-kumar-arun" class="btn btn-sm btn-outline-secondary">Acclaim</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+
+    <section id="skills">
+        <div class="section-content">
+            <div class="container">
+                <h2>Skills</h2>
+                <p class="lead">Summary of my skills are as follows. Contact me via linkedin for detailed project details. </p>
+            
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card-group">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">Languages and frameworks</h4>
+                                    <h6 class="card-subtitle">Proficient in the following</h6>
+                                </div>
+                                
+                                <div class="card-body">
+                                    <ul>
+                                        <li>Java, J2EE</li>
+                                        <li>Web Services (SOAP &amp; REST) , JMS</li>
+                                        <li>Ajax based Solutions - Jquery, JSON, bootstrap (3/4), Angular (1/5)</li>
+                                        <li>UNIX Shell scripting</li>
+                                        <li>Spring framework, Spring boot, Hibernate</li>
+                                    </ul>    
+                                </div>
+
+                                <div class="card-body">
+                                    <h6>Badges and certifications</h6>
+                                        <ul>
+                                            <li>Oracle certified Java 6 programmer</li>
+                                            <li>Oracle certified Java EE 5 webcomponent developer</li>
+                                            <li>IBM Certified AIX operator</li>
+                                            <li>Oracle 10G</li>
+                                            <li>IBM Cloud app developer</li>
+                                            <li>IBM Cognitive practitioner</li>
+                                            <li>IBM design thinking practitioner</li>
+                                        </ul>    
+                                    </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">Servers and tools</h4>
+                                    <h6 class="card-subtitle">Day to day stuff</h6>
+                                </div>
+                                
+                                <div class="card-body">
+                                    <h6>Servers</h6>
+                                    <ul>
+                                        <li>Apache tomcat</li>
+                                        <li>Weblogic 12C, Iplanet</li>
+                                    </ul>    
+                                </div>
+
+                                <div class="card-body">
+                                        <h6>Build tools</h6>
+                                        <ul>
+                                            <li>Apache ANT</li>
+                                            <li>Apache Maven</li>
+                                        </ul>    
+                                </div>
+
+                                <div class="card-body">
+                                        <h6>Operating systems</h6>
+                                        <ul>
+                                            <li>Microsoft Windows</li>
+                                            <li>Solaris, Linux</li>
+                                            <li>MACOS</li>
+                                        </ul>    
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">Database, Cloud and Devops</h4>
+                                        <h6 class="card-subtitle">Proficient in the following</h6>
+                                    </div>
+                                    
+                                    <div class="card-body">
+                                        <h6>Database</h6>
+                                        <ul>
+                                            <li>Oracle 11G</li>
+                                            <li>Informix</li>
+                                            <li>MySql</li>
+                                            <li>Cloudant (apache couch) , Mongo DB</li>
+                                        </ul>    
+                                    </div>
+    
+                                    <div class="card-body">
+                                            <h6>Cloud and CI CD</h6>
+                                            <ul>
+                                                <li>IBM Bluemix</li>
+                                                <li>Jenkins</li>
+                                            </ul>    
+                                    </div>
+    
+                                    <div class="card-body">
+                                            <h6>Version Control</h6>
+                                            <ul>
+                                                <li>SCME ( AT&amp;T proprietary )</li>
+                                                <li>SVN</li>
+                                                <li>GIT</li>
+                                            </ul>    
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="js/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
 
-</html> 
+</html>
